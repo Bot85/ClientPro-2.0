@@ -1,0 +1,82 @@
+.headme {
+  width: 100%;
+  background: #1e3a8a;
+  padding: 10px 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  box-sizing: border-box;
+}
+
+.headme1 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Logo */
+.headme1 img {
+  cursor: pointer;
+}
+
+/* Title */
+.avititle h2 {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  margin: 0;
+  white-space: nowrap;
+}
+
+/* Search Box */
+.sbox {
+  position: relative;
+  margin-left: auto;   
+  display: flex;
+  align-items: center;
+  width: 280px;
+  height: 38px;
+  background: #eef2f7;
+  border-radius: 10px;
+  padding: 0 12px;
+}
+
+.sicon {
+  position: absolute;
+  left: 12px;
+  color: #888;
+  pointer-events: none;
+}
+
+#searchme {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding-left: 32px;
+  font-size: 14px;
+  color: #333;
+}
+
+#searchme::placeholder {
+  color: #aaa;
+}
+
+/* Icon Boxes (Bell + User) */
+.icon-box {
+  width: 38px;
+  height: 38px;
+  background: #eef2f7;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.notify-icon {
+  color: #555;
+}
+
+.pro-icon {
+  background: #dde6f3;
+}
